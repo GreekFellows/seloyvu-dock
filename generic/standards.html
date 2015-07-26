@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>sly | standards</title>
+		<style>
+
+			body {
+				width: 600px;
+				margin-top: 100px;
+				margin-bottom: 100px;
+				margin-left: 50px;
+				margin-right: 50px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<h1>sly standards.</h1>
+
+		<p>Here are defined standards for logging development.</p>
+
+		<p>Logging must be done on the HTML. Development must be done on the JSON.</p>
+
+		<h2>Logging on HTML.</h2>
+
+		<p>All logging must be made on <code>log.html</code>. Logging contains information:</p>
+
+		<ul>
+			<li>
+				
+				<p><b>Date of development.</b> YY/MM/DD.</p>
+
+			</li>
+
+			<li>
+				
+				<p><b>Date of log.</b> YY/MM/DD.</p>
+
+			</li>
+
+			<li>
+				<p><b>Type of log.</b> This can be:</p>
+			
+				<ul>
+					<li><code>Cr</code>: creation;</li>
+					<li><code>De</code>: deletion;</li>
+					<li><code>Cv</code>: conversion;</li>
+					<li><code>Dv</code>: diversion; or</li>
+					<li><code>Ch</code>: direct change;</li>
+				</ul>
+
+				<p>that involves:</p>
+
+				<ul>
+					<li><code>W</code>: a word;</li>
+					<li><code>Wm</code>: the meaning of a word;</li>
+					<li><code>Wu</code>: the usage of a word;</li>
+					<li><code>Expr</code>: an expression; or</li>
+					<li><code>G</code>: a grammar rule.</li>
+					<li><code>Lf</code>: a language feature.</li>
+				</ul>
+
+				<p>Thus the deletion of a grammar rule would be noted by <code>DeG</code>.</p>
+
+			</li>
+
+			<li>
+
+				<p><b>Target(s).</b> What was the actual word / meaning / usage / expression / grammar rule created / deleted / converged into something else / diverged into multiples / changed?</p>
+
+			</li>
+
+			<li>
+
+				<p><b>Results.</b> Fully describe this creation / deletion / conversion / diversion / direct change.</p>
+
+			</li>
+		</ul>
+
+		<p>If multiple types of development are involved, they must be logged separately.</p>
+	</body>
+</html>
